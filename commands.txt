@@ -1,0 +1,6 @@
+pip install python
+python -m venv sr2327 
+source bin/activate
+pip install -qU "langchain[openai]"
+pip install python_dotenv
+pip list
