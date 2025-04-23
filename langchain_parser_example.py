@@ -97,7 +97,9 @@ updated_response = llm_model.invoke(updated_messages)
 
 output_dict = output_parser.parse(updated_response.content)
 
-print(type(output_dict))
+#print(type(output_dict))
+
+print(output_dict['cities_to_visit'][0])
 
 
 
